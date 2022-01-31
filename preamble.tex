@@ -1,0 +1,34 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,amsthm,latexsym}
+%\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{bm}
+\usepackage{placeins}
+
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=20mm,top=15mm,right=20mm,bottom=15mm,
+  headheight=0pt,headsep=0mm,foot=0pt,footskip=13mm,
+  includeheadfoot
+}
+\linespread{1.05}
+\raggedbottom
+\sloppy
+
+\renewcommand{\thesection}{\arabic{section}}
+
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}

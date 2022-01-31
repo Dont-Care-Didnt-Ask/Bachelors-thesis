@@ -1,0 +1,8 @@
+# Latex auxilary outputs
+*.toc
+*.log
+*.out
+*.aux
+
+# Turned out to be not a very relevant paper
+moco.tex
